@@ -1,0 +1,5 @@
+{
+  "name": "AqaClient",
+  "description": "A clean, FPS-boosting Minecraft client for fair play.",
+  "requestFramePermissions": []
+}
