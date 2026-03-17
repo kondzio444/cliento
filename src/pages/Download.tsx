@@ -37,9 +37,8 @@ export default function Download() {
             <Monitor className="w-16 h-16 mx-auto text-cyan-400 mb-6 group-hover:scale-110 transition-transform" />
             <h3 className="text-2xl font-bold text-white mb-2">Windows</h3>
             <p className="text-slate-400 mb-8">Windows 10 / 11 (64-bit)</p>
-            <button className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-3 rounded-xl font-bold hover:scale-105 transition-transform shadow-lg cursor-pointer">
-              <DownloadIcon className="w-5 h-5" />
-              Pobierz (.exe)
+            <button disabled className="w-full flex items-center justify-center gap-2 bg-white/5 text-slate-400 px-6 py-3 rounded-xl font-bold cursor-not-allowed">
+              Wkrótce
             </button>
           </motion.div>
 
